@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+ <h1>ndqm test page</h1>
+ <span onclick="rdrprofile()" class="hoverani">Profile </span><span> | </span><span onclick="rdrfb()" class="hoverani"> Facebook</span><span> | </span><span class="hoverani" onclick="alert(ms)">Demo </span><span> | </span><span onclick="alert(ms)" class="hoverani"> CDN server</span>
+<br><br><br><br><br><br><footer>© 2022 bởi ndqm. Bảo lưu mọi bản quyền.</footer>
+</div>
+</body>
+<style>
+    body{
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+}
+    h1{
+        color: #696969;
+    }
+    .hoverani:hover{
+        color: blue;
+    }
+    div#content{
+        padding-top: 150px;
+    }
+</style>
+<script>
+    var ms = "server closed. Please try again later"
+    function rdrfb(){
+        document.location = "https://www.facebook.com/ndqm.uocdie";
+    }
+    function rdrprofile(){
+        document.location = "https://qminh.tk/";
+    }
+</script>
+</html>
